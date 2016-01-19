@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="css/themes/windy.min.css" />
+<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+<script src="jquery/jquery-1.11.3.min.js"></script>
+<script src="jquery/jquery.mobile-1.4.5.min.js"></script></head>
+<body>
+
+<!-- Halaman 1 -->
+<div data-role="page" id="hal1">
+<!-- Panel -->
+  <div data-role="panel" id="myPanel1" data-position="right"> 
+    <h2>Menu</h2>
+    <a href="#hal2" class="ui-btn ui-shadow ui-corner-all ui-icon-user ui-btn-icon-left" data-transition="slide">Nama Binatang</a>
+	<a href="#hal3" class="ui-btn ui-shadow ui-corner-all ui-icon-camera ui-btn-icon-left" data-transition="slideup">Suara Binatang</a>
+	<a href="#hal4" class="ui-btn ui-shadow ui-corner-all ui-icon-video ui-btn-icon-left" data-transition="slidedown">Video</a>
+    <a href="" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left">Close panel</a>
+  </div>
+
+<!-- Header -->
+  <div data-role="header">
+    <a href="#myPanel1" class="ui-btn ui-btn-right ui-corner-all ui-shadow ui-icon-grid ui-btn-icon-left">Menu</a>
+    <h1>Home</h1>
+  </div>
+
+<!-- Body -->
+<div data-role="main" class="ui-content">
+    <h1><center>Selamat Datang</center></h1>
+	<center><img src="gambar/cover.png" width="100%"></center>
+	<p><center>Di web ini tersedia profil mahasiswa yang mengikuti mata kuliah mobile programming</center></p>
+	<p><center>Angkatan 2013</center></p>
+	<p><center>Prodi S1 Pendidikan Teknologi Informasi</center></p>
+	<p><center>Jurusan Teknik Informatika</center></p>
+	<p><center>Fakultas Teknik</center></p>
+	<p><center>Universitas Negeri Surabaya</center></p>
+	<p><center>Untuk melihat isi dari web ini, Anda dapat menggunakan menu panel di pojok kanan atas</center></p>
+	</div>
+<div class="ui-grid-solo ui-responsive">
+	<div class="ui-block-a">
+	<a href="#hal5" class="ui-btn ui-shadow" data-transition="pop">About</a>
+	</div>
+</div>
+</div>
+
+<!-- Halaman 2 -->
+<div data-role="page" id="hal2">
+<!-- Panel -->
+  <div data-role="panel" id="myPanel2" data-position="right"> 
+    <h2>Menu</h2>
+    <a href="#hal2" class="ui-btn ui-shadow ui-corner-all ui-icon-user ui-btn-icon-left" data-transition="slide">Nama Binatang</a>
+	<a href="#hal3" class="ui-btn ui-shadow ui-corner-all ui-icon-camera ui-btn-icon-left" data-transition="slideup">Suara Binatang</a>
+	<a href="#hal4" class="ui-btn ui-shadow ui-corner-all ui-icon-video ui-btn-icon-left" data-transition="slidedown">Video</a>
+    <a href="" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left">Close panel</a>
+  </div>
+
+<!-- Header -->
+  <div data-role="header">
+	<a href="#hal1" class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left" data-transition="slidefade">Home</a>
+    <a href="#myPanel2" class="ui-btn ui-btn-right ui-corner-all ui-shadow ui-icon-grid ui-btn-icon-left">Menu</a>
+    <h1>Nama Binatang</h1>
+  </div>
+
+<!-- Body -->
+<div data-role="main" class="ui-content">
+    <div class="ui-grid-b">
+      <div class="ui-block-a">
+        <a href="binatang/anjing.html" class="caption"><img src="gambar/anjing1.png"></a>
+      </div>
+      <div class="ui-block-b">
+        <a href="binatang/kucing.html" class="caption"><img src="gambar/kucing1.png"></a>
+      </div>
+      <div class="ui-block-c">
+        <a href="binatang/keledai.html" class="caption"><img src="gambar/keledai1.png"></a>
+      </div>
+      <div class="ui-block-a">
+        <a href="binatang/ayam.html" class="caption"><img src="gambar/ayam1.png"></a>
+      </div>
+      <div class="ui-block-b">
+        <a href="binatang/babi.html" class="caption"><img src="gambar/babi1.png"></a>
+      </div>
+      <div class="ui-block-c">
+        <a href="binatang/kura_kura.html" class="caption"><img src="gambar/kura_kura1.png"></a>
+      </div>
+      <div class="ui-block-a">
+        <a href="binatang/pinguin.html" class="caption"><img src="gambar/pinguin1.png"></a>
+      </div>
+      <div class="ui-block-b">
+        <a href="binatang/beo.html" class="caption"><img src="gambar/beo1.png"></a>
+      </div>
+      <div class="ui-block-c">
+        <a href="binatang/unta.html" class="caption"><img src="gambar/unta1.png"></a>
+      </div>
+      <div class="ui-block-a">
+        <a href="binatang/gorila.html" class="caption"><img src="gambar/gorila1.png"></a>
+      </div>
+      <div class="ui-block-b">
+        <a href="binatang/kangguru.html" class="caption"><img src="gambar/kangguru1.png"></a>
+      </div>
+      <div class="ui-block-c">
+        <a href="binatang/kambing.html" class="caption"><img src="gambar/kambing1.png"></a>
+      </div>
+      <div class="ui-block-a">
+        <a href="binatang/beruang.html" class="caption"><img src="gambar/beruang1.png"></a>
+      </div>
+      <div class="ui-block-b">
+        <a href="binatang/kuda_nil.html" class="caption"><img src="gambar/kuda_nil1.png"></a>
+      </div>
+      <div class="ui-block-c">
+        <a href="binatang/monyet.html" class="caption"><img src="gambar/monyet1.png"></a>
+      </div>
+      <div class="ui-block-a">
+        <a href="binatang/merak.html" class="caption"><img src="gambar/merak1.png"></a>
+      </div>
+      <div class="ui-block-b">
+        <a href="binatang/banteng.html" class="caption"><img src="gambar/banteng1.png"></a>
+      </div>
+      <div class="ui-block-c">
+        <a href="binatang/bebek.html" class="caption"><img src="gambar/bebek1.png"></a>
+      </div>
+      <div class="ui-block-a">
+        <a href="binatang/buaya.html" class="caption"><img src="gambar/buaya1.png"></a>
+      </div>
+      <div class="ui-block-b">
+        <a href="binatang/zebra.html" class="caption"><img src="gambar/zebra1.png"></a>
+      </div>
+      <div class="ui-block-c">
+        <a href="binatang/gajah.html" class="caption"><img src="gambar/gajah1.png"></a>
+      </div>
+      <div class="ui-block-a">
+        <a href="binatang/kerbau.html" class="caption"><img src="gambar/kerbau1.png"></a>
+      </div>
+      <div class="ui-block-b">
+        <a href="binatang/kelinci.html" class="caption"><img src="gambar/kelinci1.png"></a>
+      </div>
+      <div class="ui-block-c">
+        <a href="binatang/tupai.html" class="caption"><img src="gambar/tupai1.png"></a>
+      </div>
+      <div class="ui-block-a">
+        <a href="binatang/badak.html" class="caption"><img src="gambar/badak1.png"></a>
+      </div>
+      <div class="ui-block-b">
+        <a href="binatang/burung_hantu.html" class="caption"><img src="gambar/burung_hantu1.png"></a>
+      </div>
+      <div class="ui-block-c">
+        <a href="binatang/singa.html" class="caption"><img src="gambar/singa1.png"></a>
+      </div>
+      <div class="ui-block-a">
+        <a href="binatang/harimau.html" class="caption"><img src="gambar/harimau1.png"></a>
+      </div>
+      <div class="ui-block-b">
+        <a href="binatang/koala.html" class="caption"><img src="gambar/koala1.png"></a>
+      </div>
+      <div class="ui-block-c">
+        <a href="binatang/kuda.html" class="caption"><img src="gambar/kuda1.png"></a>
+      </div>
+      <div class="ui-block-a">
+        <a href="binatang/sapi.html" class="caption"><img src="gambar/sapi1.png"></a>
+      </div>
+      <div class="ui-block-b">
+        <a href="binatang/jerapah.html" class="caption"><img src="gambar/jerapah1.png"></a>
+      </div>
+      <div class="ui-block-c">
+        <a href="binatang/panda.html" class="caption"><img src="gambar/panda1.png"></a>
+      </div>
+    </div>
+</div>
+
+<!-- Halaman 3 -->
+<div data-role="page" id="hal3">
+<!-- Panel -->
+  <div data-role="panel" id="myPanel3" data-position="right"> 
+    <h2>Menu</h2>
+    <a href="#hal2" class="ui-btn ui-shadow ui-corner-all ui-icon-user ui-btn-icon-left" data-transition="slide">Nama Binatang</a>
+	<a href="#hal3" class="ui-btn ui-shadow ui-corner-all ui-icon-camera ui-btn-icon-left" data-transition="slideup">Suara Binatang</a>
+	<a href="#hal4" class="ui-btn ui-shadow ui-corner-all ui-icon-video ui-btn-icon-left" data-transition="slidedown">Video</a>
+    <a href="" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left">Close panel</a>
+  </div>
+
+<!-- Header -->
+  <div data-role="header">
+	<a href="#hal1" class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left" data-transition="slidefade">Home</a>
+    <a href="#myPanel3" class="ui-btn ui-btn-right ui-corner-all ui-shadow ui-icon-grid ui-btn-icon-left">Menu</a>
+    <h1>Galeri Foto</h1>
+  </div>
+
+<!-- Body -->
+<div data-role="main" class="ui-content">
+ 
+</div>
+
+<!-- Halaman 5 -->
+<div data-role="page" id="hal5">
+<!-- Panel -->
+  <div data-role="panel" id="myPanel5" data-position="right"> 
+    <h2>Menu</h2>
+    <a href="#hal2" class="ui-btn ui-shadow ui-corner-all ui-icon-user ui-btn-icon-left" data-transition="slide">Nama Binatang</a>
+	<a href="#hal3" class="ui-btn ui-shadow ui-corner-all ui-icon-camera ui-btn-icon-left" data-transition="slideup">Suara Binatang</a>
+	<a href="#hal4" class="ui-btn ui-shadow ui-corner-all ui-icon-video ui-btn-icon-left" data-transition="slidedown">Video</a>
+    <a href="" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left">Close panel</a>
+  </div>
+
+<!-- Header -->
+  <div data-role="header">
+	<a href="#hal1" class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left" data-transition="slidefade">Home</a>
+    <a href="#myPanel5" class="ui-btn ui-btn-right ui-corner-all ui-shadow ui-icon-grid ui-btn-icon-left">Menu</a>
+    <h1>About</h1>
+  </div>
+
+<!-- Body -->
+<div data-role="main" class="ui-content">
+ <div class="ui-grid-solo ui-responsive">
+  <div class="ui-block-a">
+  <p><center><img src="gambar/about.jpg" width="50%"></center></p>
+  <p><center>Web ini dibuat oleh Windy Rahmadia P.</center></p>
+  <p><center>Mahasiswa dari Universitas Negeri Surabaya, Fakultas Teknik, Jurusan Teknik Informatika, Prodi S1 Pendidikan Teknologi Informasi, angkatan 2013</center></p>
+  <p><center>Web ini dibuat untuk melengkapi tugas mata kuliah mobile programming</center></p>
+  </div>
+ </div>
+</div>
+</div>
+
+</body>
+</html>
